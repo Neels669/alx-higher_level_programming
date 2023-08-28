@@ -30,11 +30,11 @@ Python script that prints exactly "Programming is like building a multilingual p
 
 Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
 
-Source Code: <#!/usr/bin/python3
+**Source Code: #!/usr/bin/python3
 
 number = 98
 
-# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE>
+YOUR CODE GOES HERE. **
 
 The output of the script should be: the number, followed by Battery street, followed by a new line.
 
