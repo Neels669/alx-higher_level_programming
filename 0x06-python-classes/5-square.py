@@ -18,10 +18,12 @@ class Sqaure:
 
     @property
     def size(self):
+        """Inizialitation of variables"""
         return self.__size
 
     @size.setter
     def size(self, value):
+        """Inizialitation of variables"""
         if type(value) is not int:
             raise TypeError("size must be an integer")
         elif value < 0:
@@ -30,9 +32,11 @@ class Sqaure:
             self.__size = value
 
     def area(self):
+        """Return the area of the square"""
         return self.__size ** 2
 
     def my_print(self):
+        """Print in stdout a square with #"""
         if self.__size == 0:
             print()
         else:
