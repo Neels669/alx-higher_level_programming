@@ -52,5 +52,5 @@ class Base:
         elif cls.__name__ == "Square":
             dummy_instance = cls(1)  # Create a dummy Square instance
 
-        dummy_instance.update(**dictionary)  # Update the dummy instance with provided attributes
+        dummy_instance.update(**dictionary)
         return dummy_instance
